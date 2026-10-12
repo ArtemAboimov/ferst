@@ -7,11 +7,7 @@ contacts["Greri"] = 907689678
 u = contacts.pop("Greri")
 
 print("удален контакт",u)
-print(contacts)
-
-
-
-
+print(67)
 
 
 
