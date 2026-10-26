@@ -1,13 +1,27 @@
-contacts = {}
+D2 = ["Lera","Maks","Artem","Daniil","Pasha"]
+D2.append(Nina)
+Days = {
+"Mondey": ["Maths",]
+,"Tuesday": ["Maths",]
+,"Wednesday": ["Maths",]
+,"Thursday": ["Maths",]
+,"Friday": ["Maths",]
+}
+def delete_class(): 
+    global D2
+    for i in D2: 
+        print(i,end=", ")
+    print()
+    print("выбири кого удалить: ")
+    name = input("-")
+    if name in D2: 
+        D2.remove(name)
+        print("удален",name)
+    else:
+        print("Таково нет!")
 
-contacts["Artem"] = 7999870989
-contacts["Lera"] =  89997654
-contacts["Greri"] = 907689678
+delete_class()
 
-u = contacts.pop("Greri")
-h = contacts.pop("Lera")
-
-print("удален контакт",u,h)
 
 
 
